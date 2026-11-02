@@ -13,6 +13,12 @@ class Tree{
     stump.setAttribute("color","brown");
     stump.setAttribute("radius","0.25");
     this.obj.append( stump );
+
+    let cloud = document.createElement("a-sphere");
+    cloud.setAttribute("color","white");
+    cloud.setAttribute("position","0 10 0");
+    cloud.setAttribute("height","2");
+    this.obj.append( cloud );
   
     this.obj.setAttribute("position",{x:x, y:y, z:z});
     scene.append( this.obj )
