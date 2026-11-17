@@ -22,7 +22,6 @@ window.addEventListener("DOMContentLoaded",function() {
   cloud = new Cloud(-5,10,-1);
 
   //Challenge 3: Create an array to store 100 snowflakes in random positions
-
   loop();
 })
 
